@@ -12,5 +12,5 @@
 And then in psql:
 `\i /path/to/sql/file/file.sql`
 
-## Through pg_restore
+### Through pg_restore
 `pg_restore --host localhost --user [user] [--clean] [--table table_name] file.sql`
